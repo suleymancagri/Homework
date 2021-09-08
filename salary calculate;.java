@@ -7,7 +7,7 @@ public class SalaryCalculator {
 
 
     public static void main(String[] args) {
-        System.out.println("Lütfen çalışma saati giriniz");
+        System.out.println("Please enter working hours");
         Scanner scanner = new Scanner(System.in);
         int worksHoursWeek = scanner.nextInt();
         scanner.close();
@@ -22,16 +22,16 @@ public class SalaryCalculator {
 
 
         if(worksHoursWeek * perhouramount <basesalary){
-            System.out.println("Minimum 40 saat girebilirsiniz");
+            System.out.println("You can enter a minimum of 40 working hours");
         }
         else {
             if (worksHoursWeek * perhouramount >basesalary){
-            System.out.println("Kazandığınız ücret "+salary + " Euro");
+            System.out.println("The wage you earn "+salary + " Euro");
                     }
         }
         switch (worksHoursWeek){
             case 40:
-                System.out.println("Kazandığınız ücret 1000 Euro");
+                System.out.println("The wage you earn 1000 Euro");
         }
     }
 
