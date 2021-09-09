@@ -1,4 +1,4 @@
-package week1;
+package week1; //haftaiçi ve haftasonu mesai saatine göre hesaplayan ödev
 
 import java.util.Scanner;
 
