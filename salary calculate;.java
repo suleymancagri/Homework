@@ -1,4 +1,4 @@
-package week1; //Girilen çalışma saatine göre sadece haftaiçi çalıştığı baz alınarak hesaplanmış maaş
+package week1; //Girilen çalışma saatine göre ve sadece haftaiçi çalıştığı baz alınarak hesaplanmış maaş(ödevden bağımsız)
 
 import java.util.Scanner;
 
