@@ -8,7 +8,7 @@ public class FullSalaryCalculator {
         System.out.println("Please write the base salary:");
         Scanner scanner = new Scanner(System.in);
         int baseSalary = scanner.nextInt();
-        if(baseSalary > 1000)
+        if(baseSalary >= 1000)
         {
             System.out.println("Please write weekdayworkinghourswithoutovertime:");
             int weekdayworkinghourswithoutovertime = scanner.nextInt();
